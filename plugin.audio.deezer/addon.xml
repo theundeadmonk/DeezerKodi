@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.deezer" name="Deezer" version="0.0.3" provider-name="kubatek94">
-    <requires>
+<addon id="plugin.audio.deezer" name="Deezer" version="0.0.1" provider-name="theundeadmonk">
+  <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.7.0"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="start.py">
+    <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>audio</provides>
     </extension>
-    <extension point="xbmc.addon.repository" name="kubatek94's Kodi Repository">
-        <info>https://raw.githubusercontent.com/kubatek94/DeezerKodi/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/kubatek94/DeezerKodi/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/kubatek94/DeezerKodi/master/</datadir>
+    <extension point="xbmc.addon.repository" name="Aditya's Kodi Repository">
+        <info>https://raw.githubusercontent.com/theundeadmonk/DeezerKodi/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/theundeadmonk/DeezerKodi/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/theundeadmonk/DeezerKodi/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
@@ -17,8 +18,8 @@
         <description lang="en">Deezer online music streaming service. Requires Premium account.</description>
         <language>en</language>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-        <email>kubatek94@gmail.com</email>
-        <website>https://github.com/kubatek94/DeezerKodi</website>
-        <source>https://github.com/kubatek94/DeezerKodi</source>
+        <email>accounts@theundeadmonk.com</email>
+        <website>https://github.com/theundeadmonk/DeezerKodi</website>
+        <source>https://github.com/theundeadmonk/DeezerKodi</source>
     </extension>
 </addon>
